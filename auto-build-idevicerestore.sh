@@ -16,7 +16,7 @@ install_dependencies() {
     [[ "$1" == "x86" ]] && arch_suffix="i686" || arch_suffix="x86_64"
 
     declare -a packages=(
-        base-devel git make libtool autoconf automake pkg-config libcurl-devel
+        base-devel git make libtool autoconf automake pkg-config libcurl-devel libzstd-devel
         "mingw-w64-${arch_suffix}-gcc"
         "mingw-w64-${arch_suffix}-curl"
         "mingw-w64-${arch_suffix}-zstd"
