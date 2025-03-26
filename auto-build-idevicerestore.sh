@@ -20,6 +20,7 @@ install_dependencies() {
         "mingw-w64-${arch_suffix}-gcc"
         "mingw-w64-${arch_suffix}-curl"
         "mingw-w64-${arch_suffix}-zstd"
+        "mingw-w64-${arch_suffix}-libzip"
     )
 
     echo -e "${BOLD}${CYAN}Checking dependencies...${RESET}"
